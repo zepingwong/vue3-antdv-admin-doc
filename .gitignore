@@ -1,10 +1,23 @@
-node_modules
-yarn-error.log
-.idea
-yarn.lock
 .DS_Store
+node_modules
+/dist
+dist
+scripts/docsearch-scraper
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
 .vscode
-package-lock.json
-lib
-libs
-.vuepress/dist
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
