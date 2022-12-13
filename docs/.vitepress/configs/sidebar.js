@@ -59,16 +59,33 @@ function getGuideSidebar() {
       text: '指南',
       items: [
         {
-          text: '文档1',
+          text: '介绍',
           link: '/guide/'
         },
         {
-          text: '文档2',
-          link: '/guide/button'
+          text: '入门',
+          link: '/guide/start/'
         },
         {
-          text: '文档3',
-          link: '/guide/modal'
+          text: '常见问题',
+          link: '/guide/start/qa'
+        }
+      ]
+    },
+    {
+      text: '开发',
+      items: [
+        {
+          text: '开发工具配置',
+          link: '/guide/develop/tools'
+        },
+        {
+          text: '代码规范',
+          link: '/guide/develop/eslint'
+        },
+        {
+          text: 'tsconfig',
+          link: '/guide/develop/tsconfig'
         }
       ]
     }

@@ -6,11 +6,11 @@ titleTemplate: 使用 Vitepress 搭建组件库文档站点。
 
 hero:
   name: Vitepress
-  text: 使用 Vitepress 搭建组件库文档站点。
-  tagline: 基于 vitepress-theme-demoblock 插件来实现 Vue 组件的支持。
+  text: 使用 Vite + Vue3 搭建的后台模板。
+  tagline: Vite4、Vue3、Typescript、Ant Design Vue
   image:
     src: /logo.svg
-    alt: vitepress-theme-demoblock  
+    alt: vite
   actions:
     - theme: brand
       text: 开始

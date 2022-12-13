@@ -5,13 +5,13 @@ import sidebar from './configs/sidebar'
 
 export default defineConfig({
   // lang: 'en-US',
-  title: 'Vitepress',
-  description: '使用 Vitepress 搭建组件库文档站点。',
+  title: 'Admin后台文档',
+  description: '使用Vite + Vue3 + ts + Antdv 搭建的后台模板',
 
   lastUpdated: true,
   cleanUrls: 'without-subfolders',
 
-  base: 'vue3-antdv-admin-doc',
+  base: '/vue3-antdv-admin-doc',
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]
   ],
