@@ -34,6 +34,10 @@ export default [
             {
                 text: 'tsconfig',
                 link: '/guide/develop/tsconfig'
+            },
+            {
+                text: '路由配置',
+                link: '/config/router/'
             }
         ]
     }

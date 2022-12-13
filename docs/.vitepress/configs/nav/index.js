@@ -6,8 +6,7 @@ export default [
     {text: 'API 参考', link: '/api/'},
     {
         text: '更新日志',
-        link:
-            '/'
+        link: '/timeline'
     }
 ]
 
