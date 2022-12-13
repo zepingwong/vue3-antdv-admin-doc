@@ -1,8 +1,7 @@
 ---
 home: true
-heroText: null
-tagline: null
-heroImage: /hero.svg
+heroText: Admin 后台文档
+tagline: vite4 + antdv3 + ts
 heroImageStyle: {
   background: 'transparent'
 }
