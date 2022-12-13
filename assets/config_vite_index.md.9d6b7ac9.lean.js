@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.a26b7783.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"config/vite/index.md","lastUpdated":1670910771000}'),n={name:"config/vite/index.md"};function o(r,c,s,i,d,p){return a(),t("div")}const m=e(n,[["render",o]]);export{f as __pageData,m as default};

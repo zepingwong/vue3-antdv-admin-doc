@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.0cf87687.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/develop/eslint.md","lastUpdated":1670911030000}'),s={name:"guide/develop/eslint.md"};function o(n,r,c,d,i,p){return a(),t("div")}const m=e(s,[["render",o]]);export{_ as __pageData,m as default};
