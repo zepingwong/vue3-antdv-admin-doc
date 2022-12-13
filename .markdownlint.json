@@ -1,0 +1,18 @@
+{
+  "no-inline-html": {
+    "allowed_elements": [
+      "table",
+      "tr",
+      "td",
+      "sub",
+      "sup",
+      "center",
+      "img",
+      "br",
+      "style",
+      "div",
+      "span"
+    ]
+  },
+  "line-length": false
+}
