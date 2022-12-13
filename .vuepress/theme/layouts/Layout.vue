@@ -38,7 +38,7 @@ export default {
       return this.$frontmatter
     },
     homeCom () {
-      const { type } = this.$frontmatter || this.$themeConfig || { type: 'docs' }
+      const { type } = this.$themeConfig || { type: 'docs' }
       return ['docs', 'blog', 'HomeBlog', 'HomeDocs', 'HomePageOne'].indexOf(type) >= 0 ? type === 'blog' ? 'HomeBlog'
         : type === 'docs' ? 'HomeDocs' : type : 'HomeBlog'
     }
