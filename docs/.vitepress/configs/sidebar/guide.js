@@ -3,7 +3,7 @@ export default [
         text: '指南',
         items: [
             {
-                text: '介绍',
+                text: '简介',
                 link: '/guide/'
             },
             {

@@ -3,7 +3,7 @@ export default [
         text: "vite 配置",
         items: [
             {
-                text: "vite 配置",
+                text: "配置项",
                 link: "/config/vite/",
             }, {
                 text: "插件配置",
@@ -15,8 +15,8 @@ export default [
         text: "主题配置",
         items: [
             {
-                text: "主题配置",
-                link: "/config/vite/",
+                text: "配置项",
+                link: "/config/theme/",
             }
         ]
     }
