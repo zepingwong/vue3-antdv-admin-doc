@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'iconfont';  /* Project id 3450656 */
+  src: url('//at.alicdn.com/t/font_3450656_13p1ul5wuoc.woff2?t=1654503877514') format('woff2'),
+  url('//at.alicdn.com/t/font_3450656_13p1ul5wuoc.woff?t=1654503877514') format('woff'),
+  url('//at.alicdn.com/t/font_3450656_13p1ul5wuoc.ttf?t=1654503877514') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.welove-done:before {
+  content: "\e620";
+}
+
+.welove-remove:before {
+  content: "\e61e";
+}
+
+.welove-moveup:before {
+  content: "\e61f";
+}
+
+.welove-close:before {
+  content: "\e61b";
+}
+
+.welove-history1:before {
+  content: "\e61c";
+}
+
+.welove-menu1:before {
+  content: "\e61d";
+}
+
+.welove-feedback:before {
+  content: "\e61a";
+}
+
+.welove-update:before {
+  content: "\e618";
+}
+
+.welove-reply:before {
+  content: "\e619";
+}
+
+.welove-delete:before {
+  content: "\e616";
+}
+
+.welove-archive:before {
+  content: "\e617";
+}
+
+.welove-nickname:before {
+  content: "\e600";
+}
+
+.welove-message:before {
+  content: "\e614";
+}
+
+.welove-email:before {
+  content: "\e615";
+}
+
+.welove-test:before {
+  content: "\e613";
+}
+
+.welove-about:before {
+  content: "\e612";
+}
+
+.welove-account:before {
+  content: "\e611";
+}
+
+.welove-home:before {
+  content: "\e610";
+}
+
+.welove-arrow-down:before {
+  content: "\e60c";
+}
+
+.welove-arrow-right:before {
+  content: "\e60d";
+}
+
+.welove-arrow-up:before {
+  content: "\e60e";
+}
+
+.welove-arrow-left:before {
+  content: "\e60f";
+}
+
+.welove-birthday:before {
+  content: "\e60b";
+}
+
+.welove-schedule:before {
+  content: "\e60a";
+}
+
+.welove-alarm:before {
+  content: "\e609";
+}
+
+.welove-reminder:before {
+  content: "\e608";
+}
+
+.welove-share:before {
+  content: "\e607";
+}
+
+.welove-repeat:before {
+  content: "\e606";
+}
+
+.welove-note:before {
+  content: "\e605";
+}
+
+.welove-top:before {
+  content: "\e604";
+}
+
+.welove-date:before {
+  content: "\e603";
+}
+
+.welove-description:before {
+  content: "\e602";
+}
+
+.welove-category:before {
+  content: "\e601";
+}
+
+.welove-icon_close:before {
+  content: "\e6fc";
+}
+
+.welove-history:before {
+  content: "\e64d";
+}
+
+.welove-menu:before {
+  content: "\e677";
+}
+
