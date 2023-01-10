@@ -13,10 +13,10 @@
   "dependencies": {},
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "less": "^4.1.2",
-    "prettier": "^2.7.1",
-    "vitepress": "^1.0.0-alpha.30",
-    "vitepress-theme-demoblock": "^2.0.1"
+    "less": "^4.1.3",
+    "prettier": "^2.8.2",
+    "vitepress": "^1.0.0-alpha.35",
+    "vitepress-theme-demoblock": "^2.0.2"
   },
   "engines": {
     "node": ">=16.0.0"
