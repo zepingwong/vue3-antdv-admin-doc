@@ -33,21 +33,21 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
-import { ColumnHeightOutlined } from "@ant-design/icons-vue";
-import { Tooltip, Dropdown, Menu, MenuItem } from "ant-design-vue";
-import { getPopupContainer } from "../../utils/getPopupContainer";
-import type { SizeType } from "@/components/vtable/types";
-import { useTableContext } from "@/components/vtable/src/hooks/useTableContext";
+import { ref } from 'vue'
+import { ColumnHeightOutlined } from '@ant-design/icons-vue'
+import { Tooltip, Dropdown, Menu, MenuItem } from 'ant-design-vue'
+import { getPopupContainer } from '../../utils/getPopupContainer'
+import type { SizeType } from '../../../types'
+import { useTableContext } from '../../hooks/useTableContext'
 
-const table = useTableContext();
-const selectedKeysRef = ref<SizeType[]>([table.getSize()]);
+const table = useTableContext()
+const selectedKeysRef = ref<SizeType[]>([table.getSize()])
 const handleTitleClick = ({ key }: { key: SizeType }) => {
-  selectedKeysRef.value = [key];
+  selectedKeysRef.value = [key]
   table.setProps({
     size: key,
-  });
-};
+  })
+}
 </script>
 
 <style scoped></style>

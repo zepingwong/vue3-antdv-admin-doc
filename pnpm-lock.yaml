@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@ant-design/icons-vue': ^6.1.0
   '@commitlint/cli': ^17.4.0
   '@commitlint/config-conventional': ^17.4.0
   '@types/lodash-es': ^4.17.6
@@ -30,6 +31,7 @@ specifiers:
   vue: ^3.2.45
 
 dependencies:
+  '@ant-design/icons-vue': 6.1.0_vue@3.2.45
   ant-design-vue: 3.2.15_vue@3.2.45
   lodash-es: 4.17.21
   vue: 3.2.45

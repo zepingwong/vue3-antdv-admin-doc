@@ -1,18 +1,18 @@
-import type { Slots } from "vue";
-import { isFunction } from "@/components/vtable/src/utils/is";
+import type { Slots } from 'vue'
+import { isFunction } from './is'
 
 /**
  * @description:  Get slot to prevent empty error
  */
-export function getSlot(slots: Slots, slot = "default", data?: any) {
+export function getSlot(slots: Slots, slot = 'default', data?: any) {
   if (!slots || !Reflect.has(slots, slot)) {
-    return null;
+    return null
   }
   if (!isFunction(slots[slot])) {
-    console.error(`${slot} is not a function!`);
-    return null;
+    console.error(`${slot} is not a function!`)
+    return null
   }
-  const slotFn = slots[slot];
-  if (!slotFn) return null;
-  return slotFn(data);
+  const slotFn = slots[slot]
+  if (!slotFn) return null
+  return slotFn(data)
 }

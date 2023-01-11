@@ -1,9 +1,9 @@
-import { unref, computed, h } from "vue";
-import TableHeader from "../components/TableHeader/index.vue";
-import type { ComputedRef, Slots } from "vue";
-import type { BasicTableProps, InnerHandlers, Recordable } from "../../types";
-import { isString } from "@/components/vtable/src/utils/is";
-import { getSlot } from "@/components/vtable/src/utils/getSlot";
+import { unref, computed, h } from 'vue'
+import TableHeader from '../components/TableHeader/index.vue'
+import type { ComputedRef, Slots } from 'vue'
+import type { BasicTableProps, InnerHandlers, Recordable } from '../../types'
+import { isString } from '../utils/is'
+import { getSlot } from '../utils/getSlot'
 
 export function useTableHeader(
   propsRef: ComputedRef<BasicTableProps>,
@@ -12,11 +12,11 @@ export function useTableHeader(
 ) {
   const getHeaderProps = computed((): Recordable => {
     const { title, showTableSetting, titleHelpMessage, tableSetting } =
-      unref(propsRef);
+      unref(propsRef)
     const hideTitle =
-      !slots.tableTitle && !title && !slots.toolbar && !showTableSetting;
+      !slots.tableTitle && !title && !slots.toolbar && !showTableSetting
     if (hideTitle && !isString(title)) {
-      return {};
+      return {}
     }
 
     return {
@@ -35,22 +35,22 @@ export function useTableHeader(
               {
                 ...(slots.toolbar
                   ? {
-                      toolbar: () => getSlot(slots, "toolbar"),
+                      toolbar: () => getSlot(slots, 'toolbar'),
                     }
                   : {}),
                 ...(slots.tableTitle
                   ? {
-                      tableTitle: () => getSlot(slots, "tableTitle"),
+                      tableTitle: () => getSlot(slots, 'tableTitle'),
                     }
                   : {}),
                 ...(slots.headerTop
                   ? {
-                      headerTop: () => getSlot(slots, "headerTop"),
+                      headerTop: () => getSlot(slots, 'headerTop'),
                     }
                   : {}),
               }
             ),
-    };
-  });
-  return { getHeaderProps };
+    }
+  })
+  return { getHeaderProps }
 }

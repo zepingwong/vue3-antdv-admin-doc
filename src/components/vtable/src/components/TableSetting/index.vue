@@ -6,17 +6,17 @@
 </template>
 
 <script lang="ts" setup>
-import { computed, PropType } from "vue";
-import type { TableSetting } from "@/components/vtable/types";
-import RedoSetting from "@/components/vtable/src/components/TableSetting/RedoSetting.vue";
-import SizeSetting from "@/components/vtable/src/components/TableSetting/SizeSetting.vue";
+import { computed, PropType } from 'vue'
+import type { TableSetting } from '../../../types'
+import RedoSetting from './RedoSetting.vue'
+import SizeSetting from './SizeSetting.vue'
 
 const props = defineProps({
   setting: {
     type: Object as PropType<TableSetting>,
     default: () => ({}),
   },
-});
+})
 
 const getSetting = computed((): TableSetting => {
   return {
@@ -25,8 +25,8 @@ const getSetting = computed((): TableSetting => {
     setting: true,
     fullScreen: false,
     ...props.setting,
-  };
-});
+  }
+})
 </script>
 
 <style scoped>
