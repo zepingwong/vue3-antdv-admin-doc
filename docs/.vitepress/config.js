@@ -3,6 +3,7 @@ import { demoBlockPlugin } from 'vitepress-theme-demoblock'
 import nav from './configs/nav'
 import sidebar from './configs/sidebar'
 
+// @ts-ignore
 export default defineConfig({
   // lang: 'en-US',
   title: 'Admin后台文档',
@@ -12,13 +13,11 @@ export default defineConfig({
   cleanUrls: 'without-subfolders',
 
   base: '/vue3-antdv-admin-doc',
-  head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]
-  ],
+  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]],
 
   markdown: {
     headers: {
-      level: [0, 0]
+      level: [0, 0],
     },
 
     // options for markdown-it-anchor
@@ -32,9 +31,9 @@ export default defineConfig({
 
     config: (md) => {
       md.use(demoBlockPlugin, {
-        cssPreprocessor: 'less'
+        cssPreprocessor: 'less',
       })
-    }
+    },
   },
 
   themeConfig: {
@@ -45,7 +44,7 @@ export default defineConfig({
     algolia: {
       appId: 'X51HWTCQJJ',
       apiKey: 'ca20f15eb8a667898b65d13f4213ae3d',
-      indexName: 'vitepress-demo'
+      indexName: 'vitepress-demo',
     },
 
     // nav
@@ -55,17 +54,16 @@ export default defineConfig({
     sidebar,
 
     editLink: {
-      pattern: 'https://github.com/xinlei3166/vitepress-demo/edit/master/docs/:path',
-      text: '在 GitHub 上编辑此页'
+      pattern:
+        'https://github.com/xinlei3166/vitepress-demo/edit/master/docs/:path',
+      text: '在 GitHub 上编辑此页',
     },
 
-    socialLinks: [
-      { icon: 'github', link: '' }
-    ],
+    socialLinks: [{ icon: 'github', link: '' }],
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2022-present '
-    }
-  }
+      copyright: 'Copyright © 2022-present ',
+    },
+  },
 })

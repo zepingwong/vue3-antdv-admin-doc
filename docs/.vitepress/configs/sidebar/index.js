@@ -1,6 +1,6 @@
-import guide from "./guide"
-import config from "./config"
-import component from "./components"
+import guide from "./guide.js"
+import config from "./config.js"
+import component from "./components.js"
 export default {
   '/api/': getApiSidebar(),
   '/components/': component,

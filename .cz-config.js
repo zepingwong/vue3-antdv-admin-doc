@@ -49,7 +49,7 @@ module.exports = {
     { name: 'src/views' },
     { name: 'types' },
     { name: 'public' },
-    { name: 'vite.config.ts' },
+    { name: 'vite.config.js' },
     { name: 'README.md' }
   ],
 
