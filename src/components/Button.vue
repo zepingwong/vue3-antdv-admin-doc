@@ -1,18 +1,16 @@
 <template>
   <button :class="['xl-button', type ? 'xl-button--' + type : '']">
-    <slot/>
+    <slot />
   </button>
 </template>
 
 <script>
 export default {
-  name: "XlButton",
+  name: 'XlButton',
   props: {
     type: { type: String, default: 'default' }
   }
 }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

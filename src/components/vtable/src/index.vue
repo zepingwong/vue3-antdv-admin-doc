@@ -1,13 +1,13 @@
 <template>
   <div ref="wrapRef">
-    <a-table v-bind="getBindData">
+    <Table v-bind="getBindData">
       <template v-for="item in Object.keys($slots)" #[item]="data" :key="item">
         <slot :name="item" v-bind="data || {}"></slot>
       </template>
       <template #bodyCell="data">
         <slot name="bodyCell" v-bind="data || {}"></slot>
       </template>
-    </a-table>
+    </Table>
   </div>
 </template>
 
@@ -17,6 +17,8 @@ import { omit } from 'lodash-es'
 import { useTableHeader } from './hooks/useTableHeader'
 import { createTableContext } from './hooks/useTableContext'
 import type { PropType } from 'vue'
+import { Table } from 'ant-design-vue'
+
 import type {
   BasicColumn,
   BasicTableProps,
