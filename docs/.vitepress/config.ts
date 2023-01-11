@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { demoBlockPlugin } from 'vitepress-theme-demoblock'
-import nav from './configs/nav/index.js'
-import sidebar from './configs/sidebar/index.js'
+import nav from './configs/nav'
+import sidebar from './configs/sidebar'
 
 export default defineConfig({
   // lang: 'en-US',
